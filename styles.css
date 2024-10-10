@@ -1,0 +1,189 @@
+* {
+   box-sizing: border-box; 
+   font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#forest .container {
+    margin-top: 20px;
+}
+
+#nature {
+    margin-bottom: 50px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+    text-transform: lowercase;
+    font-family: "Space Mono", monospace;
+}
+
+.marker {
+    height: 40px;
+    width: 350px;
+    margin: 10px auto;
+}
+
+.cap {
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.body {
+    height: 40px;
+    width: 220px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-left: 10px double black;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-family: "Space Mono", monospace;
+}
+
+/* forest colors */
+.body .midnight {
+    color: #181C14;
+}
+.midnight {
+    background: #181C14;
+    box-shadow: 0 0 20px 0 rgba(24, 28, 20, 0.8);
+}
+
+.body .granite-gray {
+    color: #3C3D37;
+}
+.granite-gray {
+    background: #3C3D37;
+    box-shadow: 0 0 20px 0 rgba(71, 72, 66, 0.8);
+}
+
+.body .olive-green {
+    color: #697565;
+}
+.olive-green {
+    background: #697565;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .sand {
+    color: #ECDFCC;
+}
+.sand {
+    background: #ECDFCC;
+    box-shadow: 0 0 20px 0 rgba(105, 117, 101, 0.8);
+}
+
+
+/* autumn colors */
+.body .charcoal {
+    color: #343131 ;
+}
+.charcoal {
+    background: #343131 ;
+    box-shadow: 0 0 20px 0 rgba(24, 28, 20, 0.8);
+}
+
+.body .rusty-red {
+    color: #A04747 ;
+}
+.rusty-red {
+    background: #A04747 ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .golden-yellow {
+    color: #D8A25E ;
+}
+.golden-yellow {
+    background: #D8A25E ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .light-yellow {
+    color: #EEDF7A ;
+}
+.light-yellow {
+    background: #EEDF7A ;
+    box-shadow: 0 0 20px 0 rgba(105, 117, 101, 0.8);
+}
+
+
+/* horizon colors */
+.body .bright-red {
+    color: #FC4100  ;
+}
+.bright-red {
+    background: #FC4100 ;
+    box-shadow: 0 0 20px 0 rgba(24, 28, 20, 0.8);
+}
+
+.body .sunny-yellow {
+    color: #FFC55A  ;
+}
+.sunny-yellow {
+    background: #FFC55A ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .deep-blue {
+    color: #00215E  ;
+}
+.deep-blue {
+    background: #00215E ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .teal-blue {
+    color: #2C4E80  ;
+}
+.teal-blue {
+    background: #2C4E80 ;
+    box-shadow: 0 0 20px 0 rgba(105, 117, 101, 0.8);
+}
+
+
+/* nature colors */
+.body .dark-green {
+    color: #114232   ;
+}
+.dark-green {
+    background: #114232  ;
+    box-shadow: 0 0 20px 0 rgba(24, 28, 20, 0.8);
+}
+
+.body .lime-grove {
+    color: #87A922   ;
+}
+.lime-grove {
+    background: #87A922  ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .bright-yellow {
+    color: #FCDC2A   ;
+}
+.bright-yellow {
+    background: #FCDC2A  ;
+    box-shadow: 0 0 20px 0 rgba(60, 61, 55, 0.8);
+}
+
+.body .cream {
+    color: #F7F6BB   ;
+}
+.cream {
+    background: #F7F6BB  ;
+    box-shadow: 0 0 20px 0 rgba(105, 117, 101, 0.8);
+}
